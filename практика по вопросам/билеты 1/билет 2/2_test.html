@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2</title>
+    <script type="text/javascript">
+        function fff() {
+            let params = {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'text/plain',
+                }
+            };
+            fetch('http://localhost:5000/api/name', params)
+                .then(async response => {
+                    document.getElementById('fff').innerHTML = await response.text();
+                });
+        }
+        function xxx() {
+                let xhr = new XMLHttpRequest();
+                xhr.open('GET', 'http://localhost:5000/api/name', true);
+                xhr.onreadystatechange = () => {
+                    if (xhr.readyState === 4) {
+                        if (xhr.status === 200) {
+                            document.getElementById('xxx').innerHTML = xhr.responseText;
+                        } else {
+                            console.log('error\n' + xhr.statusCode);
+                        }
+                    }
+                };
+                xhr.send(null);
+            }
+    </script>
+</head>
+<body>
+    <button onclick="fff()">Fetch</button>
+    <div id="fff"></div>
+    <button onclick="xxx()">XMLHttpRequest</button>
+    <div id="xxx"></div>
+</body>
+</html>

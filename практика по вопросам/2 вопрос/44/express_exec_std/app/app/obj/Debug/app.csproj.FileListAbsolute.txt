@@ -1,0 +1,7 @@
+C:\Users\Tom\Desktop\пскп\express_exec_std______\app\app\bin\Debug\app.exe.config
+C:\Users\Tom\Desktop\пскп\express_exec_std______\app\app\bin\Debug\app.exe
+C:\Users\Tom\Desktop\пскп\express_exec_std______\app\app\bin\Debug\app.pdb
+C:\Users\Tom\Desktop\пскп\express_exec_std______\app\app\obj\Debug\app.csprojAssemblyReference.cache
+C:\Users\Tom\Desktop\пскп\express_exec_std______\app\app\obj\Debug\app.csproj.CoreCompileInputs.cache
+C:\Users\Tom\Desktop\пскп\express_exec_std______\app\app\obj\Debug\app.exe
+C:\Users\Tom\Desktop\пскп\express_exec_std______\app\app\obj\Debug\app.pdb
